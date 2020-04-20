@@ -45,6 +45,7 @@ in
       ghc864 = throw "static-haskell-nix: ghc863 is no longer supported, please upgrade";
       ghc865 = "Cabal_2_4_1_0"; # TODO this is technically incorrect for ghc 8.6.5, should be 2.4.0.1, but nixpkgs doesn't have that
       ghc881 = "Cabal_3_0_0_0";
+      ghc883 = "Cabal_3_2_0_0";
     }."${compiler}"),
 
   # Use `integer-simple` instead of `integer-gmp` to avoid linking in
